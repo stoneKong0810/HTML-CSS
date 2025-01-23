@@ -1,0 +1,45 @@
+.container {
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.blog-content {
+  width: 70%;
+  height: 250px;
+  float: left;
+}
+
+.blog-img {
+  width: 30%;
+  height: 250px;
+  float: left;
+}
+
+.blog-profile {
+  width: 50px;
+  float: left;
+}
+
+.user {
+  float: left;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.navbar li {
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+  background-color: #eee;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.navbar a {
+  font-size: 15px;
+  text-decoration: none;
+}
