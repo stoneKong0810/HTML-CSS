@@ -131,3 +131,41 @@ body {
 .nav-item {
   margin-right: 15px;
 }
+
+.product-container {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.product-container div {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .main-title {
+    font-size: 36px;
+  }
+
+  .product-container div {
+    width: 50%;
+  }
+
+  .product-container {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main-title {
+    font-size: 28px;
+  }
+
+  .product-container div {
+    width: 100%;
+  }
+}
