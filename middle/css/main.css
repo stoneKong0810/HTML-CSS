@@ -185,6 +185,7 @@ body {
 .shop-item {
   width: 33%;
   padding: 15px;
+  position: relative;
 }
 
 .shop-item img {
@@ -222,6 +223,13 @@ body {
 
 .overlay:hover {
   opacity: 1;
+}
+
+.product-container::after {
+  content: '';
+  display: block;
+  clear: both;
+  float: none;
 }
 
 @media screen and (max-width: 768px) {
