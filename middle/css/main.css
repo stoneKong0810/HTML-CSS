@@ -193,15 +193,6 @@ body {
   display: block;
 }
 
-.overlay {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  opacity: 0;
-  transition: all 0.5s;
-}
-
 .overlay-wrap {
   position: absolute;
   width: 100%;
@@ -230,6 +221,30 @@ body {
   display: block;
   clear: both;
   float: none;
+}
+
+.ani-text {
+  text-align: center;
+}
+
+.ani-text:hover {
+  animation-name: moving;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes moving {
+  0% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(-100px);
+  }
+
+  100% {
+    transform: translateX(100px);
+  }
 }
 
 @media screen and (max-width: 768px) {
